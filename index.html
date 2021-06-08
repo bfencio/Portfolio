@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous"></script>
+  <!-- Material Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Portfolio</title>
+
+</head>
+<body>
+
+<!-- RESPONSIVE WITH SIDENAV MENU -->
+<nav class="navbar-fixed">
+    <nav style="background-color: #092425;">
+        <div class="nav-wrapper">
+          <div class="container">
+            
+            <a href="#home" class="brand-logo">
+                <img src="my_logo.png" alt="" class="circle responsive-img" style="max-width: 50px; max-height: 50px; margin-top: 7px;">
+            </a>
+
+            <a href="#" data-target="slide-out" class="sidenav-trigger">
+              <i class="material-icons right">menu</i>
+            </a>
+            
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="#aboutme">About Me</a></li>
+              <li><a href="#certificates">Certificates</a></li>
+              <li><a href="#contacts">Contacts</a></li>
+            </ul>  
+          </div>
+        </div>
+      </nav>   
+</nav>    
+
+<!-- SIDENAV -->
+  <ul id="slide-out" class="sidenav hide-on-large-only">
+    <li><div class="user-view" style="background-color: #092425; text-align: center; " >
+      <a href="#"><img class="circle responsive-img" src="my_logo.png" style="margin-left: 105px;"></a>
+      <a href="#"><span class="amber-text name">Bea Franceska Encio</span></a>
+      <a href="https://mail.google.com/"><span class="white-text email">enciobea@gmail.com</span></a>
+    </div></li>
+
+    <li><a class="waves-effect" href="#aboutme">About Me</a></li>
+    <li><a class="waves-effect" href="#certificates">Certificates</a></li>
+    <li><a class="waves-effect" href="#contacts">Contacts</a></li>
+  </ul>
+
+<!-- HOME -->
+  <div class="parallax-container scrollspy" id="home">
+    <div class="parallax"><img src="parallax1.jpg">
+        <div class="row">
+            <div class="col s12 m12 l8">
+              <div class="card transparent z-depth-0">
+                <div class="card-content rectangle">
+                  <h1>Bea Franceska Encio</h1>
+                  <h5>Web Developer</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="container col s8 m10 l4">
+        <a href="#aboutme" class="btn-large teal darken-4 waves-effect" style="margin: 380px -40px;">Take a Look!</a>
+    </div>
+  </div>
+
+<!-- ABOUT ME -->  
+  <div class="section white">
+    <div class="row container">
+      <h2 class="header center-align scrollspy"  id="aboutme">About Me</h2>
+    </div>
+  </div>
+
+  <div class="col s12 m7">
+    <h4 class="center-align">PROFILE</h4>
+    <div class="card horizontal z-depth-0">
+      <div class="card-image">
+        <img src="webdev.png">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content" style="text-align: justify; margin: 50px">
+          <p>Hello, I'm Bea Franceska Encio, a 3rd-year student at PUP-ITech and currently taking a Diploma in Information Communication in Technology. Since Junior High School, I've always love to design something and fiddle with a computer. And I am now an aspiring Front-End Web Developer. </p>
+          <br><br>
+          <p>However, I'm still a beginner in this field — I self-study by watching video tutorials and other online training to develop my skills. Also, I've done some projects in my college days for the academic requirements. As I challenged myself to be a full-pledge web developer, I am prepared to face obstacles I might run into.</p>
+        </div>
+      </div>
+    </div>
+
+    <h4 class="center-align">SKILLS</h4>
+      <ul class="collapsible popout col s12 m12 l12" style="margin: 50px">
+        <li>
+          <div class="collapsible-header teal darken-4 white-text"><i class="material-icons">devices</i>IT Skills</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header teal darken-4 white-text"><i class="material-icons">code</i>Web Dev/Design</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header teal darken-4 white-text"><i class="material-icons">remember_me</i>Soft Skills</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+      </ul>
+  </div>
+
+  <h4 class="center-align">MY WORKS</h4>
+    <div class="row center-align" style="margin: 50px">
+        <div class="col s12 m12 l12">
+          <div class="card teal darken-4">
+            <div class="card-content white-text">
+              <span class="card-title">Github</span>
+              <h6>If your interested, kindly visit my projects at Github!</h6>        </div>
+            <div class="card-action">
+              <a href="https://github.com/bfencio">Visit Projects</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+ 
+<!-- CERTIFICATES -->
+  <div class="section teal darken-2">
+    <div class="row container">
+      <h2 class="header center-align scrollspy"  id="certificates">Certificates</h2>
+      <br><br>
+      <span class="flow-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero perspiciatis error enim consequatur quibusdam consequuntur, dolore distinctio cum vero delectus aspernatur doloremque blanditiis adipisci explicabo, aliquid maxime. Quis, fuga illo.</span>
+      <div class="container">
+        <div class="carousel">
+          <a class="carousel-item" href="#one!"><img src="certificate1.png"></a>
+          <a class="carousel-item" href="#two!"><img src="certificate1.png"></a>
+          <a class="carousel-item" href="#three!"><img src="certificate1.png"></a>
+          <a class="carousel-item" href="#four!"><img src="certificate1.png"></a>
+          <a class="carousel-item" href="#five!"><img src="certificate1.png"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- CONTACTS -->  
+  <div class="section white">
+    <div class="row container">
+      <h2 class="header center-align scrollspy"  id="contacts">Contacts</h2>
+    </div>
+  </div>
+
+  <div class="card horizontal z-depth-0 col s12 m5">
+    <div class="col s12 m5" style="margin:100px">
+        <h4>You can reach me here! </h4>
+        <div class="card-panel z-depth-0">
+        <i class="material-icons left">email</i>
+        <a href="https://mail.google.com/">Email: enciobea@gmail.com</a>
+        </div>
+        <div class="card-panel z-depth-0">
+            <i class="material-icons left">call</i>
+            <span>Mobile Number: 09452949117</span> 
+        </div>
+        <div class="card-panel z-depth-0">
+            <i class="fab fa-linkedin" style="font-size: 25px; padding-right: 14px;"></i>
+            <a href="www.linkedin.com/in/bea-encio">LinkedIn: www.linkedin.com/in/bea-encio</a>
+        </div>
+        <div class="card-panel z-depth-0">
+            <i class="fab fa-github" style="font-size: 25px; padding-right: 14px;"></i>
+            <a href="https://github.com/bfencio">Github: https://github.com/bfencio</a>
+        </div>
+    </div>
+
+    <div class="col s12 m5" style="margin:1in">
+        <h4>Let's Connect! </h4>
+        <br>
+        <div class="card-panel z-depth-0">
+        <i class="fab fa-facebook" style="font-size: 25px; padding-right: 14px;"></i>
+        <a href="https://www.facebook.com/ceskaencio/">Facebook: </a>
+        </div>
+        <div class="card-panel z-depth-0">
+            <i class="fab fa-twitter" style="font-size: 25px; padding-right: 14px;"></i>
+            <a href="https://twitter.com/ceska_bea">Twitter: </a> 
+        </div>
+        <div class="card-panel z-depth-0">
+            <i class="fab fa-instagram" style="font-size: 25px; padding-right: 14px;"></i>
+            <a href="https://www.instagram.com/ceska_encio/">Instagram: </a>
+        </div>
+    </div>
+  </div>
+
+
+<!-- FOOTER -->
+  <footer class="section white-text center" style="background-color: #092425;">
+    <p>Copyright &copy; 2021 Bea Franceska Encio </p>
+  </footer>
+
+
+<!-- Jquery CDN -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $('.sidenav').sidenav();
+    $('.parallax').parallax();
+    $('.carousel').carousel({
+      duration: 100,
+      dist: -50,
+      shift: 10
+      });
+    $('.collapsible').collapsible();
+    $('.scrollspy').scrollSpy();
+      });
+</script>
+
+ </body>
+</html>
